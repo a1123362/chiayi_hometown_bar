@@ -8,6 +8,45 @@
         body {
             background: linear-gradient(to bottom, #f5f5dc, #fffaf0); /* 漸層米色 */
         }
+
+        .card {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #4682b4; /* 邊框顏色 */
+            border-radius: 10px; /* 圓角 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 陰影效果 */
+            background-color: #f0f8ff; /* 卡片背景顏色 */
+            font-family: Arial, sans-serif;
+            color: #333; /* 文字顏色 */
+        }
+
+        /* 圖片樣式 */
+        .card img {
+            max-width: 200px; /* 限制圖片寬度 */
+            border-radius: 10px; /* 圓角 */
+            margin-right: 20px; /* 與文字間距 */
+        }
+
+        /* 文字區域樣式 */
+        .card .content {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* 標題樣式 */
+        .card .content h2 {
+            margin: 0 0 10px 0; /* 與文字區域的間距 */
+            font-size: 24px;
+            color: #4682b4; /* 標題顏色 */
+        }
+
+        /* 描述文字樣式 */
+        .card .content p {
+            margin: 0;
+            font-size: 16px;
+        }
         
         /* 設定文字圖卡的樣式 */
         .text-card {
@@ -68,6 +107,17 @@
                           而我們能做的除了前一部分分析出的兩點以外，更重要的是要有能夠時時陪在老人身邊的人，給予他生活上及時的協助，克服生活的種種阻礙。</h1>
     <div class="iframe-container2">
         <iframe src="https://plotdb.io/v/chart/37451" width="60%" height="600px" frameborder="1"></iframe>
+    </div>
+
+    <div class="card">
+        <img src="https://lh6.googleusercontent.com/XAsZamwWqL07NUQv_bWr0d6hiYDvN7kts4MNfVePxbwSVFQUZ_iWpx19W_hAq8mMKRb088MEIqVNWY_O1o0Qi5s=w1280" alt="示意圖">
+        <div class="content">
+            <h2>集點子大賽</h2>
+            <p>在現代社會中，年輕人能隨時隨地享受音樂，而老年族群卻只能從收音機或電視被動接收音樂，無法主動尋找自己喜愛的音樂類型。以嘉義縣這個「老人之都」為例，長者的娛樂方式相當有限，特別是在高齡化且長照需求族群居多的情況下。
+                值得注意的是，隨著年齡增長，女性老人比例逐漸超過男性，尤其在65至70歲之間最為明顯，且年齡族群 A11 也比年齡族群 A12 少。現代長者已開始使用智慧型手機等 3C 產品消遣，這為我們提供了新的機會。
+                第一個，音樂分享平台 : 建立專屬長者的音樂分享社群，促進彼此交流，增進友誼，創造歸屬感。第二個，多元音樂課程 : 提供長者接觸不同音樂類型的機會，擴展音樂視野，同時改善心理健康。
+                第三個，跨世代互動 : 鼓勵年輕人與長者分享音樂喜好，促進代際交流，減少數位落差。透過建立這樣的音樂環境，我們不僅能豐富長者的生活，也能促進社交互動，減輕孤獨感，並藉由適合的音樂改善心理健康。
+                這種方式既尊重長者的主動性，又能善用現代科技，為嘉義縣的高齡社會帶來新的活力。</p>
     </div>
 </body>
 </html>
